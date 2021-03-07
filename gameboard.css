@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: darkgreen;
+    font-family: Jazz LET, fantasy;
+}
+h1{
+    font-family: Jazz LET, fantasy;
+}
+span.square{
+    display: inline-block;
+    background-color: darkolivegreen;
+    border: black solid 1px;
+
+}
+span.foundBone
+{
+    background-image:url("images/bone.png") ;
+    background-size: cover;
+    text-decoration-color: transparent;
+    background-color: brown;
+}
+span.dugout{
+    background-color: brown;
+}
+span.square:hover, span.square *:hover {
+    cursor: pointer;
+}
+div#boardBackground
+{
+    align-content: center;
+    background-color: lightgray;
+}
+#myProgress
+{
+    align-content: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: green;
+    margin-left: 0;
+    margin-right: 0;
+}
+#myBar
+{
+    margin-top: 10px;
+    width: 0;
+    height: 30px;
+    background-color: red;
+}
