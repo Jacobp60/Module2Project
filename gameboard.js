@@ -37,9 +37,9 @@ function playerGuess()
 
 }
 function progressBar(){
-    let initial = $('#myBar').css('width');
-    let update = `initial += 10`;
-    $('div#myBar').css(update,'width');
+    let initial = $('#myBar').width();
+    let update = initial += 75;
+    $('div#myBar').width(update);
 }
 
 
